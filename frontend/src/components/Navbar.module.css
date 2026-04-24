@@ -1,0 +1,49 @@
+.nav {
+  background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.logo {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #6366f1;
+  letter-spacing: -0.02em;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.name {
+  font-size: 0.9rem;
+  color: #475569;
+  font-weight: 500;
+}
+
+.logoutBtn {
+  background: transparent;
+  border: 1.5px solid #e2e8f0;
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.4rem;
+  font-size: 0.875rem;
+  color: #64748b;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.logoutBtn:hover {
+  border-color: #ef4444;
+  color: #ef4444;
+}
